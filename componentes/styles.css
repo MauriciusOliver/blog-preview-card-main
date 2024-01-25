@@ -1,0 +1,90 @@
+body{
+    font-family: 'Figtree';
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px;
+    background-color: hsl(0, 0%, 100%);
+    width: 367px;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 17px 17px 0px rgb(20, 20, 20)
+}
+
+.imagem__principal {
+    width: 357px;
+    border-radius: 27px;
+    padding: 15px 0px 15px;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    padding: 6px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.publish {
+    padding-top: 10px;
+}
+
+.titulo {
+    font-size: 26px;
+    font-weight: 800;
+    padding: 20px 0px 20px;
+    cursor: pointer;
+}
+
+.titulo:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.descricao {
+    color: hsl(0, 0%, 50%);
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem__avatar {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.nome {
+    font-weight: 800;
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 86vw;
+        padding: 11px;
+        box-shadow: 6px 6px 0px rgb(20, 20, 20);
+    }
+
+    .imagem__principal {
+        width: 86vw;
+        border-radius: 29px;
+    }
+
+    .learning {
+        font-size: 14px;
+    }
+
+    .publish {
+        font-size: 12px;
+    }
+}
